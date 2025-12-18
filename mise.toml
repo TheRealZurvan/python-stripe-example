@@ -1,5 +1,2 @@
-[tasks.format]
-run = 'echo "Ok"'
-
-[tasks.lint]
-run = 'echo "Ok"'
+[tasks.main]
+run = 'uv run src/main.py'
